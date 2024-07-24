@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831093092AF43CFD0080AE94 /* DocumentIcon-320px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */; };
+		8310930A2AF43CFD0080AE94 /* DocumentIcon-160px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093082AF43CFD0080AE94 /* DocumentIcon-160px.png */; };
+		8310930C2AF4433F0080AE94 /* outdoor-chairs.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8310930B2AF4433F0080AE94 /* outdoor-chairs.glb */; };
+		8358594E2AF2075A0015BB7A /* ClearCoatCarPaint.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8358594D2AF2061B0015BB7A /* ClearCoatCarPaint.glb */; };
+		838397442AF96678003D9139 /* FlightHelmet.glb in Resources */ = {isa = PBXBuildFile; fileRef = 838397432AF96628003D9139 /* FlightHelmet.glb */; };
+		838397462AF9686B003D9139 /* Mixer.glb in Resources */ = {isa = PBXBuildFile; fileRef = 838397452AF9686B003D9139 /* Mixer.glb */; };
+		838397552AFADDFD003D9139 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 838397542AFADDFD003D9139 /* Settings.bundle */; };
+		8383A4E22B001FAB008E56D2 /* PotOfCoals.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8383A4E12B001FAB008E56D2 /* PotOfCoals.glb */; };
+		83BDEE5F2AE8737700CD4171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BDEE5E2AE8737700CD4171 /* AppDelegate.swift */; };
+		83BDEE612AE8737700CD4171 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BDEE602AE8737700CD4171 /* SceneDelegate.swift */; };
+		83BDEE662AE8737700CD4171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE642AE8737700CD4171 /* Main.storyboard */; };
+		83BDEE682AE8737800CD4171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE672AE8737800CD4171 /* Assets.xcassets */; };
+		83BDEE6B2AE8737800CD4171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE692AE8737800CD4171 /* LaunchScreen.storyboard */; };
+		83BDEE742AE8739300CD4171 /* DracoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 83BDEE732AE8739300CD4171 /* DracoSwift */; };
+		83BDEE772AE8739E00CD4171 /* GLTFKit2 in Frameworks */ = {isa = PBXBuildFile; productRef = 83BDEE762AE8739E00CD4171 /* GLTFKit2 */; };
+		83BDEE7B2AE8746100CD4171 /* DracoPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83BDEE792AE8746100CD4171 /* DracoPlugin.mm */; };
+		83BDEEA12AE8761700CD4171 /* Fox.glb in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE872AE8761700CD4171 /* Fox.glb */; };
+		83BDEEA42AE8761700CD4171 /* SampleAssets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE8A2AE8761700CD4171 /* SampleAssets.plist */; };
+		83BDEEA62AE8761700CD4171 /* Neutral-small.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 83BDEE8C2AE8761700CD4171 /* Neutral-small.hdr */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8304A3E42AF2EBDF0016F840 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8304A3D32AF2EBDE0016F840 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		831092F42AF317310080AE94 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentIcon-320px.png"; sourceTree = "<group>"; };
+		831093082AF43CFD0080AE94 /* DocumentIcon-160px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentIcon-160px.png"; sourceTree = "<group>"; };
+		8310930B2AF4433F0080AE94 /* outdoor-chairs.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = "outdoor-chairs.glb"; sourceTree = "<group>"; };
+		8358594D2AF2061B0015BB7A /* ClearCoatCarPaint.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClearCoatCarPaint.glb; sourceTree = "<group>"; };
+		838397432AF96628003D9139 /* FlightHelmet.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlightHelmet.glb; sourceTree = "<group>"; };
+		838397452AF9686B003D9139 /* Mixer.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mixer.glb; sourceTree = "<group>"; };
+		838397542AFADDFD003D9139 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8383A4E12B001FAB008E56D2 /* PotOfCoals.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PotOfCoals.glb; sourceTree = "<group>"; };
+		83BDEE5B2AE8737700CD4171 /* glTFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glTFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BDEE5E2AE8737700CD4171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83BDEE602AE8737700CD4171 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83BDEE652AE8737700CD4171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83BDEE672AE8737800CD4171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83BDEE6A2AE8737800CD4171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83BDEE6C2AE8737800CD4171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BDEE782AE8746000CD4171 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		83BDEE792AE8746100CD4171 /* DracoPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DracoPlugin.mm; sourceTree = "<group>"; };
+		83BDEE7A2AE8746100CD4171 /* DracoPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DracoPlugin.h; sourceTree = "<group>"; };
+		83BDEE872AE8761700CD4171 /* Fox.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fox.glb; sourceTree = "<group>"; };
+		83BDEE8A2AE8761700CD4171 /* SampleAssets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleAssets.plist; sourceTree = "<group>"; };
+		83BDEE8C2AE8761700CD4171 /* Neutral-small.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neutral-small.hdr"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83BDEE582AE8737700CD4171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BDEE742AE8739300CD4171 /* DracoSwift in Frameworks */,
+				83BDEE772AE8739E00CD4171 /* GLTFKit2 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8304A3D22AF2EBDE0016F840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8304A3D32AF2EBDE0016F840 /* QuickLook.framework */,
+				831092F42AF317310080AE94 /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		831093022AF43CCE0080AE94 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				831093082AF43CFD0080AE94 /* DocumentIcon-160px.png */,
+				831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		83BDEE522AE8737700CD4171 = {
+			isa = PBXGroup;
+			children = (
+				83BDEE5D2AE8737700CD4171 /* glTFViewer */,
+				8304A3D22AF2EBDE0016F840 /* Frameworks */,
+				83BDEE5C2AE8737700CD4171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83BDEE5C2AE8737700CD4171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83BDEE5B2AE8737700CD4171 /* glTFViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83BDEE5D2AE8737700CD4171 /* glTFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				83BDEE842AE8761700CD4171 /* Resources */,
+				83BDEE602AE8737700CD4171 /* SceneDelegate.swift */,
+				83BDEE5E2AE8737700CD4171 /* AppDelegate.swift */,
+				83BDEE7A2AE8746100CD4171 /* DracoPlugin.h */,
+				83BDEE792AE8746100CD4171 /* DracoPlugin.mm */,
+				83BDEE782AE8746000CD4171 /* Bridging.h */,
+				83BDEE642AE8737700CD4171 /* Main.storyboard */,
+				83BDEE692AE8737800CD4171 /* LaunchScreen.storyboard */,
+				83BDEE672AE8737800CD4171 /* Assets.xcassets */,
+				83BDEE6C2AE8737800CD4171 /* Info.plist */,
+				838397542AFADDFD003D9139 /* Settings.bundle */,
+			);
+			path = glTFViewer;
+			sourceTree = "<group>";
+		};
+		83BDEE842AE8761700CD4171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				831093022AF43CCE0080AE94 /* Icons */,
+				83BDEEB92AE8763E00CD4171 /* Environments */,
+				83BDEEB82AE8763900CD4171 /* Sample Models */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83BDEEB82AE8763900CD4171 /* Sample Models */ = {
+			isa = PBXGroup;
+			children = (
+				8383A4E12B001FAB008E56D2 /* PotOfCoals.glb */,
+				8358594D2AF2061B0015BB7A /* ClearCoatCarPaint.glb */,
+				838397432AF96628003D9139 /* FlightHelmet.glb */,
+				838397452AF9686B003D9139 /* Mixer.glb */,
+				83BDEE872AE8761700CD4171 /* Fox.glb */,
+				8310930B2AF4433F0080AE94 /* outdoor-chairs.glb */,
+				83BDEE8A2AE8761700CD4171 /* SampleAssets.plist */,
+			);
+			path = "Sample Models";
+			sourceTree = "<group>";
+		};
+		83BDEEB92AE8763E00CD4171 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				83BDEE8C2AE8761700CD4171 /* Neutral-small.hdr */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83BDEE5A2AE8737700CD4171 /* glTFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BDEE6F2AE8737800CD4171 /* Build configuration list for PBXNativeTarget "glTFViewer" */;
+			buildPhases = (
+				83BDEE572AE8737700CD4171 /* Sources */,
+				83BDEE582AE8737700CD4171 /* Frameworks */,
+				83BDEE592AE8737700CD4171 /* Resources */,
+				8304A3E42AF2EBDF0016F840 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83BDEEBD2AE8772600CD4171 /* PBXTargetDependency */,
+				83BDEEBF2AE8772600CD4171 /* PBXTargetDependency */,
+			);
+			name = glTFViewer;
+			packageProductDependencies = (
+				83BDEE732AE8739300CD4171 /* DracoSwift */,
+				83BDEE762AE8739E00CD4171 /* GLTFKit2 */,
+			);
+			productName = glTFViewer;
+			productReference = 83BDEE5B2AE8737700CD4171 /* glTFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83BDEE532AE8737700CD4171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					83BDEE5A2AE8737700CD4171 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 83BDEE562AE8737700CD4171 /* Build configuration list for PBXProject "glTFViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83BDEE522AE8737700CD4171;
+			packageReferences = (
+				83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */,
+				83BDEE752AE8739E00CD4171 /* XCRemoteSwiftPackageReference "GLTFKit2" */,
+			);
+			productRefGroup = 83BDEE5C2AE8737700CD4171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83BDEE5A2AE8737700CD4171 /* glTFViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83BDEE592AE8737700CD4171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838397462AF9686B003D9139 /* Mixer.glb in Resources */,
+				83BDEE6B2AE8737800CD4171 /* LaunchScreen.storyboard in Resources */,
+				8358594E2AF2075A0015BB7A /* ClearCoatCarPaint.glb in Resources */,
+				83BDEE682AE8737800CD4171 /* Assets.xcassets in Resources */,
+				831093092AF43CFD0080AE94 /* DocumentIcon-320px.png in Resources */,
+				8310930A2AF43CFD0080AE94 /* DocumentIcon-160px.png in Resources */,
+				83BDEEA42AE8761700CD4171 /* SampleAssets.plist in Resources */,
+				838397552AFADDFD003D9139 /* Settings.bundle in Resources */,
+				838397442AF96678003D9139 /* FlightHelmet.glb in Resources */,
+				83BDEEA12AE8761700CD4171 /* Fox.glb in Resources */,
+				8310930C2AF4433F0080AE94 /* outdoor-chairs.glb in Resources */,
+				83BDEEA62AE8761700CD4171 /* Neutral-small.hdr in Resources */,
+				8383A4E22B001FAB008E56D2 /* PotOfCoals.glb in Resources */,
+				83BDEE662AE8737700CD4171 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83BDEE572AE8737700CD4171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BDEE5F2AE8737700CD4171 /* AppDelegate.swift in Sources */,
+				83BDEE7B2AE8746100CD4171 /* DracoPlugin.mm in Sources */,
+				83BDEE612AE8737700CD4171 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83BDEEBD2AE8772600CD4171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 83BDEEBC2AE8772600CD4171 /* DracoSwift */;
+		};
+		83BDEEBF2AE8772600CD4171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 83BDEEBE2AE8772600CD4171 /* GLTFKit2 */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83BDEE642AE8737700CD4171 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BDEE652AE8737700CD4171 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83BDEE692AE8737800CD4171 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BDEE6A2AE8737800CD4171 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83BDEE6D2AE8737800CD4171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83BDEE6E2AE8737800CD4171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83BDEE702AE8737800CD4171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = glTFViewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "glTF Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display 3D models in augmented reality.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.khronos.gltf.glTFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = glTFViewer/Bridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83BDEE712AE8737800CD4171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = glTFViewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "glTF Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display 3D models in augmented reality.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.khronos.gltf.glTFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = glTFViewer/Bridging.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83BDEE562AE8737700CD4171 /* Build configuration list for PBXProject "glTFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BDEE6D2AE8737800CD4171 /* Debug */,
+				83BDEE6E2AE8737800CD4171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BDEE6F2AE8737800CD4171 /* Build configuration list for PBXNativeTarget "glTFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BDEE702AE8737800CD4171 /* Debug */,
+				83BDEE712AE8737800CD4171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warrenm/DracoSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.6;
+			};
+		};
+		83BDEE752AE8739E00CD4171 /* XCRemoteSwiftPackageReference "GLTFKit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warrenm/GLTFKit2";
+			requirement = {
+				kind = exactVersion;
+				version = 0.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83BDEE732AE8739300CD4171 /* DracoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */;
+			productName = DracoSwift;
+		};
+		83BDEE762AE8739E00CD4171 /* GLTFKit2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83BDEE752AE8739E00CD4171 /* XCRemoteSwiftPackageReference "GLTFKit2" */;
+			productName = GLTFKit2;
+		};
+		83BDEEBC2AE8772600CD4171 /* DracoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */;
+			productName = DracoSwift;
+		};
+		83BDEEBE2AE8772600CD4171 /* GLTFKit2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83BDEE752AE8739E00CD4171 /* XCRemoteSwiftPackageReference "GLTFKit2" */;
+			productName = GLTFKit2;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 83BDEE532AE8737700CD4171 /* Project object */;
+}
