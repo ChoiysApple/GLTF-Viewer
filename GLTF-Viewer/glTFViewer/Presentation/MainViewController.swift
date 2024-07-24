@@ -41,7 +41,7 @@ class MainViewController: UIViewController {
         
         self.view.backgroundColor = .white
         
-        var stack = UIStackView()
+        let stack = UIStackView()
         stack.axis = .horizontal
         stack.distribution = .fillEqually
         stack.spacing = 10
@@ -62,7 +62,10 @@ extension MainViewController {
     
     @objc
     private func gotoObject() {
-        self.navigationController?.pushViewController(ObjectViewController(), animated: true)
+        
+        let vc = ObjectViewController()
+        vc.assetURL = SampleAssetStore.default.assets[0].assetURL
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc
