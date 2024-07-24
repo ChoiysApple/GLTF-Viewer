@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6DF8AC2C514A5800205B29 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6DF8AB2C514A5800205B29 /* SnapKit */; };
 		831093092AF43CFD0080AE94 /* DocumentIcon-320px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */; };
 		8310930A2AF43CFD0080AE94 /* DocumentIcon-160px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093082AF43CFD0080AE94 /* DocumentIcon-160px.png */; };
 		8310930C2AF4433F0080AE94 /* outdoor-chairs.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8310930B2AF4433F0080AE94 /* outdoor-chairs.glb */; };
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6DF8AC2C514A5800205B29 /* SnapKit in Frameworks */,
 				83BDEE742AE8739300CD4171 /* DracoSwift in Frameworks */,
 				83BDEE772AE8739E00CD4171 /* GLTFKit2 in Frameworks */,
 			);
@@ -187,6 +189,7 @@
 			packageProductDependencies = (
 				83BDEE732AE8739300CD4171 /* DracoSwift */,
 				83BDEE762AE8739E00CD4171 /* GLTFKit2 */,
+				7D6DF8AB2C514A5800205B29 /* SnapKit */,
 			);
 			productName = glTFViewer;
 			productReference = 83BDEE5B2AE8737700CD4171 /* glTFViewer.app */;
@@ -220,6 +223,7 @@
 			packageReferences = (
 				83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */,
 				83BDEE752AE8739E00CD4171 /* XCRemoteSwiftPackageReference "GLTFKit2" */,
+				7D6DF8AA2C514A5800205B29 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 83BDEE5C2AE8737700CD4171 /* Products */;
 			projectDirPath = "";
@@ -512,6 +516,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7D6DF8AA2C514A5800205B29 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 		83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/warrenm/DracoSwift";
@@ -531,6 +543,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7D6DF8AB2C514A5800205B29 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D6DF8AA2C514A5800205B29 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
 		83BDEE732AE8739300CD4171 /* DracoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 83BDEE722AE8739300CD4171 /* XCRemoteSwiftPackageReference "DracoSwift" */;
