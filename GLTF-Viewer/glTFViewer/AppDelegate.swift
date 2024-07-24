@@ -20,14 +20,9 @@ import GLTFKit2
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    public let ubiquityContainerIdentifier = "iCloud.org.khronos.gltf.glTFViewer"
-
-    public var launchURL: URL?
-
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
-        GLTFAsset.dracoDecompressorClassName = "DracoDecompressor"
 
         return true
     }

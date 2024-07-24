@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7D6DF8AC2C514A5800205B29 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D6DF8AB2C514A5800205B29 /* SnapKit */; };
+		7D6DF8AE2C51523B00205B29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DF8AD2C51523B00205B29 /* MainViewController.swift */; };
+		7D6DF8B02C51565400205B29 /* ObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DF8AF2C51565400205B29 /* ObjectViewController.swift */; };
+		7D6DF8B22C51567300205B29 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DF8B12C51567300205B29 /* ARViewController.swift */; };
 		831093092AF43CFD0080AE94 /* DocumentIcon-320px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */; };
 		8310930A2AF43CFD0080AE94 /* DocumentIcon-160px.png in Resources */ = {isa = PBXBuildFile; fileRef = 831093082AF43CFD0080AE94 /* DocumentIcon-160px.png */; };
 		8310930C2AF4433F0080AE94 /* outdoor-chairs.glb in Resources */ = {isa = PBXBuildFile; fileRef = 8310930B2AF4433F0080AE94 /* outdoor-chairs.glb */; };
@@ -43,6 +46,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D6DF8AD2C51523B00205B29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7D6DF8AF2C51565400205B29 /* ObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewController.swift; sourceTree = "<group>"; };
+		7D6DF8B12C51567300205B29 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		8304A3D32AF2EBDE0016F840 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		831092F42AF317310080AE94 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
 		831093072AF43CFD0080AE94 /* DocumentIcon-320px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DocumentIcon-320px.png"; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				83BDEE842AE8761700CD4171 /* Resources */,
 				83BDEE602AE8737700CD4171 /* SceneDelegate.swift */,
 				83BDEE5E2AE8737700CD4171 /* AppDelegate.swift */,
+				7D6DF8AD2C51523B00205B29 /* MainViewController.swift */,
+				7D6DF8AF2C51565400205B29 /* ObjectViewController.swift */,
+				7D6DF8B12C51567300205B29 /* ARViewController.swift */,
 				83BDEE7A2AE8746100CD4171 /* DracoPlugin.h */,
 				83BDEE792AE8746100CD4171 /* DracoPlugin.mm */,
 				83BDEE782AE8746000CD4171 /* Bridging.h */,
@@ -264,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BDEE5F2AE8737700CD4171 /* AppDelegate.swift in Sources */,
+				7D6DF8B02C51565400205B29 /* ObjectViewController.swift in Sources */,
 				83BDEE7B2AE8746100CD4171 /* DracoPlugin.mm in Sources */,
+				7D6DF8B22C51567300205B29 /* ARViewController.swift in Sources */,
 				83BDEE612AE8737700CD4171 /* SceneDelegate.swift in Sources */,
+				7D6DF8AE2C51523B00205B29 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

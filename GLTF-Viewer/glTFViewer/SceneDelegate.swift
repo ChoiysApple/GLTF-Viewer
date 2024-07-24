@@ -33,10 +33,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-
+        gotoMain()
     }
 
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        
+        gotoMain()
+    }
+    
+    private func gotoMain() {
+        rootNavigationController?.pushViewController(MainViewController(), animated: false)
     }
 }
